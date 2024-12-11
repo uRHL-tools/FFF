@@ -17,8 +17,11 @@ Follow this guide to install GetFF in your computer.
 > Python 3 is required. Download it from the [official page](https://www.python.org/downloads/)
 
 ```cmd
+# 1. Clone the repo, either via Git or download zip
+git clone https://github.com/uRHL-tools/FFF
 # TODO: windows
 # Linux
+cd FFF
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -27,7 +30,11 @@ pip install -r requirements.txt
 
 ### Usage
 
+> Remember to activate the virtual environment before executing
+ 
 ```cmd
+# To enable virtual environment
+source venv/bin/activate
 # Windows
 python __main__.py -h
 
